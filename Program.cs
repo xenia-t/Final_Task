@@ -1,5 +1,5 @@
 ﻿
-// Ввод массива
+// Ввод массива c клавиатуры
 
 string[] InputArray(int size)
 {
@@ -55,7 +55,7 @@ string[] CreateNewArray(string[] array, int count)
 }
 
 
-Console.WriteLine("Введите количество элементов массива: ");
+Console.WriteLine("Введите количество элементов массива: "); // Ограничение размерности исходного массива
 int size = Int32.Parse(Console.ReadLine());
 if (size > 0)
 {
